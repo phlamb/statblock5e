@@ -1,4 +1,4 @@
-import {createCustomElement} from '/src/js/helpers/create-custom-element.js';
+import {createCustomElement} from './helpers/create-custom-element.js';
 
 fetch('src/templates/stat-block.html')
   .then(stream => stream.text())
